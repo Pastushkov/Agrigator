@@ -39,7 +39,7 @@ namespace Agregator
     {
         public void AgregatorLogger(string TypeMessage, string message)
         {
-
+            //realised
         }
 
         public abstract void Initialize(string url, string account, string secretKey, string terminalID, string artificateName, string artificatePassword);
