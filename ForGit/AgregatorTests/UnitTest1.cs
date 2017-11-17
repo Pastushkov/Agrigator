@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AgregatorTests
+namespace Agregator
 {
     [TestClass]
     public class UnitTest1
