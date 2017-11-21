@@ -6,3 +6,5 @@ E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\obj\Debug\ForGit.exe
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\obj\Debug\ForGit.pdb
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\Agregator.dll
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\Agregator.pdb
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\RequestData.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\RequestData.pdb

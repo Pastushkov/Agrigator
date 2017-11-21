@@ -1,0 +1,5 @@
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\RequestData\bin\Debug\RequestData.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\RequestData\bin\Debug\RequestData.pdb
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\RequestData\obj\Debug\RequestData.csprojResolveAssemblyReference.cache
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\RequestData\obj\Debug\RequestData.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\RequestData\obj\Debug\RequestData.pdb
