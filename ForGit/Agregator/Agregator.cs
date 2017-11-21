@@ -3,41 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http;
 
-namespace Agregator
+namespace AgregatorNS
 {
-    class NewAgregator : Agregator
+   public class NewAgregator : Agregator
     {
 
-        string ArtificatePassword
-        {
-            get; set;
-        }
-        string ArtificateName
-        {
-            get; set;
-        }
-        string TerminalID
-        {
-            get; set;
-        }
-        string SecretKey
-        {
-            get; set;
-        }
-        string Account
-        {
-            get; set;
-        }
-        string Url
-        {
-            get;
-            set;
-        }
+        string ArtificatePassword {get;set;}
+
+        string ArtificateName{get;set;}
+
+        string TerminalID{get;set;}
+
+        string SecretKey {get;set;}
+
+        string Account {get;set; }
+
+        string Url{get;set;}
+
+        HttpClient httpClient = new HttpClient();
 
         public override CheckResponse Check(int providerProductID, string jsonFields)
         {
+            CheckResponse res = null;
             
+            Encoding win1251 = Encoding.GetEncoding(1251);
+            HttpRequestMessage httpRequest = new HttpRequestMessage(HttpMethod.Post, Url);
+            httpRequest.Content = new StringContent(jsonFields, win1251);
+            
+            try
+            {
+                using (HttpResponseMessage httpResponse = httpClient.SendAsync(httpRequest).Result)
+                {
+                    
+                }
+            }
+            catch
+            {
+
+            }
+
+            return res;
         }
 
         public override ComissionResponce Comission(int providerProductID, string jsonFields)
@@ -55,6 +62,11 @@ namespace Agregator
             throw new NotImplementedException();
         }
 
+        public override PayResponse Pay(int providerProductID, string jsonFields, string idempotenKey)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void Initialize(string url, string account, string secretKey, string terminalID, string artificateName, string artificatePassword)
         {
             Url = url;
@@ -65,10 +77,7 @@ namespace Agregator
             ArtificatePassword = ArtificatePassword;
         }
 
-        public override PayResponse Pay(int providerProductID, string jsonFields, string idempotenKey)
-        {
-            throw new NotImplementedException();
-        }
+        
 
       
 

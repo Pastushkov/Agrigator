@@ -5,10 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agregator
-{
-  
-
+namespace AgregatorNS
+{  
     public class CheckResponse
     {
         bool Status;
