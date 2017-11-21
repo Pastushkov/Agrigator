@@ -11,8 +11,13 @@ namespace TestAgregatorNS
     {
         static void Main(string[] args)
         {
-            AgregatorNS.
-            Agregator agregator = new NewAgregator();
+            
+           AgregatorNS.Agregator agregator = new NewAgregator();
+           ((NewAgregator)agregator).Url = "http://www.albahari.com/EchoPost.aspx";
+           
+            Console.WriteLine(agregator.Check(53,"Request 53").jsonValue);
+
+            Console.ReadLine();
         }
     }
 }

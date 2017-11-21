@@ -9,31 +9,32 @@ namespace AgregatorNS
 {  
     public class CheckResponse
     {
-        bool Status;
-        string errorCode;
-        string errorMessage;
-        string jsonValue;
+        public bool Status;
+        public string errorCode;
+        public string errorMessage;
+        public string jsonValue;
     }
 
     public class PayResponse
     {
-        int state;
-        string providerTransactionID;
-        string errorCod;
-        string errorMessage;
-        string jsonValue;
-        string idempotentKey;
+        public int state;
+        public string providerTransactionID;
+        public string errorCod;
+        public string errorMessage;
+        public string jsonValue;
+        public string idempotentKey;
            
     }
 
     public class ComissionResponce
     {
-        int providerProductID;
-        double providerComission;
+        public int providerProductID;
+        public double providerComission;
     }
 
     public abstract class Agregator
     {
+        
         public void AgregatorLogger(string TypeMessage, string message)
         {
             string logFile = "Agregator.log";

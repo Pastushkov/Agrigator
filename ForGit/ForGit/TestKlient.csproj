@@ -51,5 +51,11 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agregator\Agregator.csproj">
+      <Project>{8b59189b-699f-4069-8d28-d89458828c73}</Project>
+      <Name>Agregator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

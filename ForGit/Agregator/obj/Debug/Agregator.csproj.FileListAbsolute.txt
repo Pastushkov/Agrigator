@@ -1,0 +1,5 @@
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\Agregator\bin\Debug\Agregator.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\Agregator\bin\Debug\Agregator.pdb
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\Agregator\obj\Debug\Agregator.csprojResolveAssemblyReference.cache
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\Agregator\obj\Debug\Agregator.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\Agregator\obj\Debug\Agregator.pdb

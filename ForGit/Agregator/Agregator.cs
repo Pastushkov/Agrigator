@@ -10,23 +10,23 @@ namespace AgregatorNS
    public class NewAgregator : Agregator
     {
 
-        string ArtificatePassword {get;set;}
+       public string ArtificatePassword { get; set; }
 
-        string ArtificateName{get;set;}
+        public string ArtificateName { get; set; }
 
-        string TerminalID{get;set;}
+        public string TerminalID { get; set; }
 
-        string SecretKey {get;set;}
+        public  string SecretKey { get; set; }
 
-        string Account {get;set; }
+        public string Account { get; set; }
 
-        string Url{get;set;}
+        public string Url{get;set;}
 
         HttpClient httpClient = new HttpClient();
 
         public override CheckResponse Check(int providerProductID, string jsonFields)
         {
-            CheckResponse res = null;
+            CheckResponse res = new CheckResponse();
             
             Encoding win1251 = Encoding.GetEncoding(1251);
             HttpRequestMessage httpRequest = new HttpRequestMessage(HttpMethod.Post, Url);
@@ -36,6 +36,13 @@ namespace AgregatorNS
             {
                 using (HttpResponseMessage httpResponse = httpClient.SendAsync(httpRequest).Result)
                 {
+                    if (httpResponse.IsSuccessStatusCode)
+                    {
+                        res.jsonValue = httpResponse.Content.ReadAsStringAsync().Result;
+                        res.Status = true;
+                    }
+                    else
+                        res.Status = false;
                     
                 }
             }

@@ -4,3 +4,5 @@ E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\ForGit.pdb
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\obj\Debug\TestKlient.csprojResolveAssemblyReference.cache
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\obj\Debug\ForGit.exe
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\obj\Debug\ForGit.pdb
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\Agregator.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\ForGit\bin\Debug\Agregator.pdb

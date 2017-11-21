@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Agregator;
 
 namespace Agregator
 {
@@ -9,9 +10,9 @@ namespace Agregator
         [TestMethod]
         public void TestMethod1()
         {
-            // "Http://albahari.com/EchoPost.aspx"
+           
             
-            A
+          
         }
     }
 }
