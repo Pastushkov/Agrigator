@@ -13,3 +13,5 @@ E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\bin\Debug\Micro
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\obj\Debug\AgregatorTests.csprojResolveAssemblyReference.cache
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\obj\Debug\AgregatorTests.dll
 E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\obj\Debug\AgregatorTests.pdb
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\bin\Debug\Agregator.dll
+E:\ПАСТУШКОВ\Git\KolectuvHaRobota\ForGit\AgregatorTests\bin\Debug\Agregator.pdb

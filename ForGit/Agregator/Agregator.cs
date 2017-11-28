@@ -24,8 +24,12 @@ namespace AgregatorNS
 
         HttpClient httpClient = new HttpClient();
 
+        
+      
         public override CheckResponse Check(int providerProductID, string jsonFields)
         {
+
+
             CheckResponse res = new CheckResponse();
             
             Encoding win1251 = Encoding.GetEncoding(1251);
@@ -82,14 +86,6 @@ namespace AgregatorNS
             TerminalID = terminalID;
             ArtificateName = artificateName;
             ArtificatePassword = ArtificatePassword;
-        }
-
-        
-
-      
-
-       
-
-
+        }                    
     }
 }

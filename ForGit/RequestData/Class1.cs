@@ -12,12 +12,26 @@ namespace RequestData
     {
         public static string ObjToXmlString(object obj)
         {
-            XmlSerializer xmlSerialize = new XmlSerializer(obj.GetType());
+            /*XmlSerializer xmlSerialize = new XmlSerializer(obj.GetType());
 
             using (Stream res = File.Create("Data.xml"))
                 xmlSerialize.Serialize(res, obj);
 
-            return File.ReadAllText("Data.xml");
+            return File.ReadAllText("Data.xml");*/
+
+            string res;
+            Encoding win1251 = Encoding.GetEncoding(1251);
+            XmlSerializer xmlserializer = new XmlSerializer(obj.GetType());
+            byte[] bytes;
+            char[] chasr;
+
+            using (Stream stream = new MemoryStream())
+            {
+                xmlserializer.Serialize(stream, obj);
+                    
+            }
+
+            return res;
         }
     }
 
@@ -26,6 +40,12 @@ namespace RequestData
         public Data()
         {
             
+        }
+
+        public Data(Request req, string signMes)
+        {
+            Request = req;
+            SingMesg = singMes;
         }
 
         public Request Request { get; set; }
